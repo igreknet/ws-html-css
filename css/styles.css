@@ -13,6 +13,12 @@ body * {
   margin: 0 auto;
 }
 
+li {
+  list-style: none;
+}
+
+/* HEADER */
+
 .header {
   height: 100vh;
   background: linear-gradient(220.75deg, #001528 6.4%, #000000 100%);
@@ -36,3 +42,37 @@ body * {
   height: 16px;
   background: linear-gradient(45deg, #0020bb 0%, #00ffbe 100%);
 }
+
+/* HEADER */
+
+/* HERO */
+
+.hero {
+  background: linear-gradient(220.75deg, #f7f7f7 6.4%, #f7f7f7 100%);
+}
+
+.hero-item {
+  display: flex;
+  padding: 70px 0 70px 0;
+}
+
+.hero-content-text {
+  width: 50%;
+  padding-right: 5%;
+}
+
+/* HERO */
+
+/* GALLERY */
+
+.gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 45px 0 45px 0;
+}
+
+.gallery-item {
+  width: 33.33%;
+}
+
+/* GALLERY */
